@@ -10,4 +10,4 @@ RUN npm run build
 COPY ./nginx.conf /etc/nginx/conf.d/
 CMD ["nginx", "-g", "daemon off;"]
 
-EXPOSE 80
+EXPOSE 5080
