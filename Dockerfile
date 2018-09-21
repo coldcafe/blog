@@ -7,6 +7,7 @@ COPY ./package.json /www/
 RUN npm install
 COPY ./ /www/
 RUN npm run build
+COPY ./index.html /www/public/a/
 COPY ./nginx.conf /etc/nginx/conf.d/
 CMD ["nginx", "-g", "daemon off;"]
 
