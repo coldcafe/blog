@@ -12,22 +12,22 @@ customize:
         enabled: true
         width: 40
         height: 40
-        url: css/images/avatar.jpg
+        url: /css/images/avatar.jpg
     profile:
         enabled: true # Whether to show profile bar
         fixed: true
-        avatar: css/images/avatar.jpg
+        avatar: /css/images/avatar.jpg
         gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-        author: coldcofe
+        author: coldcafe
         author_title: Web Developer
         location: Shen Zhen, China
-        follow: https://github.com/coldcofe/
+        follow: https://github.com/coldcafe/
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
     favicon: # path to favicon
     # social_links:
-    #     github: http://github.com/coldcofe
+    #     github: http://github.com/coldcafe
     #     twitter: /
     #     facebook: /
     #     dribbble: /
@@ -51,7 +51,7 @@ search:
 
 # Comment
 comment:
-    disqus: coldcofe # enter disqus shortname here
+    disqus: # enter disqus shortname here
     duoshuo: # enter duoshuo shortname here
     youyan: # enter youyan uid here
     facebook: # enter true to enable
@@ -85,7 +85,7 @@ plugins:
     google_analytics: # enter the tracking ID for your Google Analytics
     google_site_verification: # enter Google site verification code
     baidu_analytics: # enter Baidu Analytics hash key
-    mathjax: false # options: true, false
+    mathjax: true # options: true, false
 
 # Miscellaneous
 miscellaneous:
